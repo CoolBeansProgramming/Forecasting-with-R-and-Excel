@@ -1,1 +1,1 @@
-# Forecasting-with-R-and-Excel
+# Forecasting with R and Excel
