@@ -1,7 +1,6 @@
 # Forecasting with R and Excel
 
-Forecast the next eight months of retail sales per day in the US. The historical data is from January 1, 1992 - June 1, 2020. 
-
+Given historical data of U.S. dollar retail sales from January 1, 1992 - June 1, 2020, forecast the next eight months of retail sales per day using Excel and R.
 
 In Excel, I will use FORECAST.ETS(). 
 
