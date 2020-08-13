@@ -37,12 +37,12 @@ ggseasonplot(sales.ts, year.labels = TRUE, year.labels.left = TRUE) +
   ggtitle("Seasonalplot of Sales")
 
 # seasonal plot: polar coordinates
-ggseasonplot(JohnsonJohnson, polar = TRUE) +
+ggseasonplot(sales.ts, polar = TRUE) +
   xlab("Month/Year") +
   ylab("Millions (2020 ($)") +
   ggtitle("Seasonalplot of Sales, Polar Coordinates")
 
 # seasonal subseries plot
-ggsubseriesplot(JohnsonJohnson) +
+ggsubseriesplot(sales.ts) +
   ylab("Millions(2020 ($)") +
   ggtitle("Seasonal subseries plot: Sales")
